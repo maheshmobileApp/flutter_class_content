@@ -1,0 +1,16 @@
+Loops:
+
+Loop is used to run block of code repetitively for a given number of times or until matches the specific condition.
+
+for (initialization;condition;increment/decrement) {
+
+//loop body
+
+}
+
+
+//for ... in loop
+
+for(var in expression){
+    
+}

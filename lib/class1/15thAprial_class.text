@@ -1,0 +1,80 @@
+
+Scaffold:
+
+The scaffold is a widget 
+
+Properties:
+
+ Scaffold({
+    super.key,
+    this.appBar,
+    this.body,
+    this.floatingActionButton,
+    this.floatingActionButtonLocation,
+    this.floatingActionButtonAnimator,
+    this.persistentFooterButtons,
+    this.persistentFooterAlignment = AlignmentDirectional.centerEnd,
+    this.drawer,
+    this.onDrawerChanged,
+    this.endDrawer,
+    this.onEndDrawerChanged,
+    this.bottomNavigationBar,
+    this.bottomSheet,
+    this.backgroundColor,
+    this.resizeToAvoidBottomInset,
+    this.primary = true,
+    this.drawerDragStartBehavior = DragStartBehavior.start,
+    this.extendBody = false,
+    this.extendBodyBehindAppBar = false,
+    this.drawerScrimColor,
+    this.drawerEdgeDragWidth,
+    this.drawerEnableOpenDragGesture = true,
+    this.endDrawerEnableOpenDragGesture = true,
+    this.restorationId,
+
+    appBar: it is a horizontal bar that is mainly display at the top of scaffold widget.
+    Body: it is the other primary and required property of this widget. it will display the content in the scaffold
+    drawer: it is a side panel that is displayed at the side of the body.
+    floatingActionButton: it is button displayed at the bottom right corner and floating above the body.
+
+
+
+
+Container: it is widget is same as <div> tag in html. if this widget does not contain any child widget, it will fill the whole area on the screen automatically. otherwise, it will wrap the child widget according the specific height and width.
+
+
+Key? key,
+  AlignmentGeometry? alignment,
+  EdgeInsetsGeometry? padding,
+  Color? color,
+  Decoration? decoration,
+  Decoration? foregroundDecoration,
+  double? width,
+  double? height,
+  BoxConstraints? constraints,
+  EdgeInsetsGeometry? margin,
+  Matrix4? transform,
+  AlignmentGeometry? transformAlignment,
+  Widget? child,
+  Clip clipBehavior = Clip.none
+
+  1. child: this property is used to store the child widget of the container.
+ Container(
+        color: Colors.red,
+        child: Text("dffasfd"),
+      )
+
+  2.  color: This property is used to set the backgroundColor of the text.
+  3. height and widget : this property is used to set the container's height and width.
+ 4. margin: this property is used to surround the empty space around the container.
+ 5.padding: This property is used to set the distance between the border of the container and it's child widget.
+ 6. alignment: this property is used to set the position of the child.
+ 7.decoration: this property allows the developer to add decoration on the widget.
+
+
+ Row & Column:
+
+Row and column are the two essential widgets in flutter that allows developer to align childern horizontal and vertical according to our needs.
+
+
+

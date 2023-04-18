@@ -1,0 +1,106 @@
+//12th aprial 
+
+
+
+//Decision making statements
+
+//if statement
+// if-else statement
+//if else if statement
+//switch case statement
+
+
+
+//Looping statement
+
+//for Loop
+// for .. in Loop
+
+// jump statement
+
+//break
+// continue
+
+
+
+// if statement
+
+if statement allows us to a block of Code
+
+
+if(condition) {
+
+
+
+}
+
+the given condition returns true / false 
+
+
+// if else statement
+
+if(condition) {
+
+
+
+}else{
+
+}
+
+
+
+////if else if statement
+
+
+if (condition) {
+
+
+}else if(condition) {
+
+
+}else if (condition) {
+
+
+}else{
+
+    
+}
+
+
+Switch case Statement: This statement avoid the long chain of if-else statement. it is the simplified from of nested if-else statement.
+
+
+switch (expression) {
+
+case value:
+
+
+break:
+
+ase value:
+
+
+break:
+
+case value:
+
+
+break:
+
+case value:
+
+
+break:
+
+case value:
+
+
+break:
+
+default:
+
+
+
+}
+
+

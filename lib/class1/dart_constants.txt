@@ -1,0 +1,21 @@
+Constant is defined as an immutable object. it can't changed or modified during excution of the program;
+
+The dart constant can be defined in the following two ways
+
+1. using the final keyword
+2. using the const keyword
+
+The const keyword represent the compilei-time constand
+
+final variable can be set only once.
+
+
+final dataType const_name;
+or 
+final const_name;
+
+final a = 10;
+
+const name = ""
+
+

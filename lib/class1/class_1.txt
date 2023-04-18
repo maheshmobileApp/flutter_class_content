@@ -1,0 +1,81 @@
+/dart is an open-source programming language developed by google.
+it supports application development in both client and server-side. It is used for the development of android, iOS apps , IoT(internet of things) and web application usin the flutter framework
+
+
+Dart is Object-oriented language and is quite similar to that of java programming.
+
+Dart file extension is .dart 
+
+
+
+First Code in Dart:
+
+In dart main() fuction is predefined method and acts as the entry point to the application.
+
+main() {
+
+    print("hello dart ")
+
+}
+
+//Comments
+
+1. single line Comments
+ //
+2. multi-line Comments
+
+/*  
+
+
+*/
+//Dart Keywords
+Dart keywords are the reserve words that have special meaning for the compilier . IT cannot be used as the variable name,class name or fucntion name.
+class
+import
+this
+case
+catch
+switch
+super
+abstract
+else
+enum
+is
+new
+try
+false
+extends
+continue
+await
+dynamic
+static
+
+
+//Dart Data Types
+
+The data types are the most important fundamental feature of programming language.
+
+Nummber
+Strings
+Boolean
+Lists
+Maps 0
+
+Number:
+
+The Dart numbers is used to store the numeric values. The number can be two types - integer and double
+
+int age = 30;
+
+double salary = 1000.450
+
+
+Strings:
+
+A string is the sequence of the character. 
+
+String name = "dart"
+
+'sdasfa'
+
+''' sadfsfdsa sfdsafsa safdsafdsafsa'''

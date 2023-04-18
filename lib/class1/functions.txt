@@ -1,0 +1,28 @@
+Dart function is a set of statements to perform a specific task.
+
+a = 10;
+
+b = 20;
+
+ z = a + b;
+
+
+1. re-usability of the program
+2. it optimizes the code
+3. it makes developmet easy and creates less complexity
+
+//syntax
+int
+returntype functionNamess(parameterlist) {
+
+
+
+    return 0;
+
+}
+
+returnType: it can be any data type such as void, integer,string.......the return type must be matched with the returned value of the function.
+functionname: it should be an appropriate valid identifier
+
+parameterlist: list of the parameters, which is necessary when we called a function.
+

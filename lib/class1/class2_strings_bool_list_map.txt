@@ -1,0 +1,104 @@
+  //String Properties
+
+  String str1 = "hello";
+
+isEmpty: returns the true if this string isEmpty
+
+str1.isEmpty -> false
+
+
+Length:
+
+Return the lenth of the string includes spaces, 
+
+str1.lenth ->
+
+Methods:
+
+toLowerCase: 
+
+converts all characters in this string to lower case
+
+String str1 = "HeLLO" -> str1.toLowerCase -> hello
+
+toUppserCase:converts all characters in this string to upper case
+
+trim:
+
+Return the string without any leading and trailing whitespace
+
+String str1 = "     heloo   ";
+
+str1.trim() - > "helloo"
+
+Split:
+
+Split the string at matches of the specific value and return the a list of substrings
+
+
+String str1 = "heloo,hi,test,abc,555"
+
+str1.Split(",") -> [hello, hi, test, abc,555]
+
+
+
+
+
+Boolean:
+
+The Boolean data type in DART support only two values - true and false
+
+Boolean isMale = true;
+
+
+bool isLargest;
+
+isLargest = 10<3;
+
+print(isLargest)
+
+
+LIST:
+
+
+store the collection of objects called List, in other programming language called as Array.
+
+List marks = [10,3,4,5,6,66,4,22,22,3,544]
+
+Methods:
+
+first : return the first element in the list
+
+isEmpty:
+
+returns true if the collection has at least one element
+
+length:
+
+return the size of the list
+
+last:
+
+return the last element of in  the list
+
+
+
+
+MAP:
+
+
+The map object is a simple key/value pairs. Keys and values in a map may be of any type.
+{}
+
+to declare a map using {} 
+
+Map  values = {"key1":23, "key2":455};
+
+n
+
+Map students = {"name":"dart","age":23 }
+
+
+//key : value
+
+//
