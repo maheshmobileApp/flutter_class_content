@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:lucid_training_class/GetStart/getStartScren.dart';
+import 'package:lucid_training_class/Home/homeScreen.dart';
 
 import 'Login/loginScreen.dart';
 
 void main() {
   runApp(const MyApp());
-  
 }
 
 class MyApp extends StatelessWidget {
@@ -27,7 +28,13 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:LoginScreen(),
+      initialRoute: "/getStart",
+      routes: {
+        "/login": (context) => LoginScreen(),
+        "/home": (context) => HomeScreen(),
+        "/getStart":(context) => GetStartScren()
+      },
+      // home:LoginScreen(),
     );
   }
 }

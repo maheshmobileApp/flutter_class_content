@@ -18,7 +18,6 @@ class _LoginScreenState extends State<LoginScreen> {
         children: [
           TextField(),
           TextField(),
-
           Container(
             // color: Colors.red,
             child: Text(
@@ -46,6 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           print("pressed the floating button");
+          Navigator.pushNamed(context, "/home");
         },
         child: Icon(Icons.add_a_photo),
       ),
