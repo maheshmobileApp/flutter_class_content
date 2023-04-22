@@ -22,10 +22,13 @@ class _GetStartScrenState extends State<GetStartScren> {
               "Let’s Connect  Together",
               style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),
             ),
-            SizedBox(height: 56,),
+            SizedBox(
+              height: 56,
+            ),
             InkWell(
               onTap: () {
                 print("pressed login screen");
+                Navigator.pushNamed(context, "/login");
               },
               child: Container(
                 alignment: Alignment.center,
@@ -43,7 +46,9 @@ class _GetStartScrenState extends State<GetStartScren> {
                 ),
               ),
             ),
-             SizedBox(height: 22,),
+            SizedBox(
+              height: 22,
+            ),
             InkWell(
               onTap: () {
                 print("pressed login screen");
@@ -58,15 +63,16 @@ class _GetStartScrenState extends State<GetStartScren> {
                 width: 357,
                 height: 71,
                 decoration: BoxDecoration(
-                  color:Color.fromRGBO(250, 152, 132, 1) ,
+                  color: Color.fromRGBO(250, 152, 132, 1),
                   border: Border.all(
                       color: Color.fromRGBO(158, 152, 152, 1), width: 2),
                   borderRadius: BorderRadius.circular(50),
                 ),
               ),
             ),
-
-             SizedBox(height: 56,),
+            SizedBox(
+              height: 56,
+            ),
           ],
         ),
       ),
