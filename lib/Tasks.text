@@ -13,3 +13,6 @@
 11. Create 5 screens and define the routes
 12. design the screens https://www.figma.com/file/rMBI48X7bxF5lc29WXAfb0/Mobile-Login-Screens-Template-(Community)?node-id=2-15&t=ixCNGC4SYDJq6CMh-0
 13. Create sign up form with username, email, phone number,address,password fields and vaidate the form
+14. Create basic listview
+15. create listview.builder and listview.separater
+16. Load the india states in listview

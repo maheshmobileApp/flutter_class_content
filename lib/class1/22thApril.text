@@ -6,3 +6,24 @@
 // create one button
 // define form global key
 
+//24th class
+// ListView
+Listview is a scrollable list of widgets arranged linearly.
+
+it displays it's children one after another in the scroll direction
+
+scroll direction are two types 1. vertical 2. horizontal
+
+Types of ListViews
+1. ListView
+2. Listview.builder
+3.Listview.separated
+4. listview.custome
+
+1.ListView: This is default constructor of the listview class. A ListView simple takes a list of widgets and makes it scrollable.
+
+2.Listview.builder
+The builder constructor a repeating list of widgets. the constructor takes two main paramerters
+. Item Count : 
+. itemBuilder
+
