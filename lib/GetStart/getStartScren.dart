@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class GetStartScren extends StatefulWidget {
   const GetStartScren({super.key});
@@ -18,6 +19,8 @@ class _GetStartScrenState extends State<GetStartScren> {
           mainAxisAlignment: MainAxisAlignment.end,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            SvgPicture.asset("assets/happy-fruit.svg"),
+            Image.asset("assets/logoimage.jpg"),
             Text(
               "Let’s Connect  Together",
               style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),

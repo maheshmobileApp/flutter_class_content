@@ -27,3 +27,15 @@ The builder constructor a repeating list of widgets. the constructor takes two m
 . Item Count : 
 . itemBuilder
 
+
+//25th April
+
+//Image: how to display the images in project. 
+extensions are: png, jpeg, svg...
+//
+//step 1: Create one folder inside project 
+//step 2: add some images inside folder
+//step 3: update the pubspec.yaml file. ( assets folder contains more than one image. we can include it by specifying the directory name with spals(/))
+
+assest:
+   - assets/
