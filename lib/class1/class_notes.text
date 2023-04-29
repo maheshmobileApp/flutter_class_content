@@ -39,3 +39,68 @@ extensions are: png, jpeg, svg...
 
 assest:
    - assets/
+
+
+   //REST API : Most of the apps use remote data usin APIs. 
+
+   // API: Application programming interface
+
+   //client (app) -------> request to server 
+
+
+A user application can make GET,POST,PUT,DELETE   HTTP request to a database.
+//HTTP: Hypertext Transfer Protocol is desined to enable communication between clients and servers.
+
+HTTP Methods:
+
+GET
+POST
+PUT
+HEAD
+DELETE
+PATCH
+OPTIONS
+CONNECT
+TRACE
+
+GET: This methods requests a representation of the specified resource.
+
+
+POST: is used to send data to a server to create/update a resource
+
+Sing up : fname,lName,UNmae,phone number,address     
+
+
+DB 
+
+//Ip addreess ( base url ), endpoint, paramerters
+
+//Request
+
+1. Base url and endpoint
+2. Method: 
+3.Body: (no body for GET method,) 
+4.headders
+
+
+
+
+
+
+//Response
+
+200,201,202.......... (status code is 200 series success)
+400,404 .. bad request
+500... (server error)
+
+
+
+***********************************************************************************************
+1.Base Url: https://vbreez-plugins.com + end point : /api/Product/getCarMakes?
+2. Method: GET
+3.body : null
+4.headders: {"ApiKey":"9c120200cd936042f6a441d93fcf11ed"}
+
+
+
+

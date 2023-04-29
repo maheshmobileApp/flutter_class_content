@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lucid_training_class/GetStart/getStartScren.dart';
 import 'package:lucid_training_class/Home/homeScreen.dart';
 import 'package:lucid_training_class/ToDoTask/ToDoTask.dart';
+import 'package:lucid_training_class/apirequest/api_request.dart';
 
 import 'Login/loginScreen.dart';
 
@@ -29,12 +30,13 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      initialRoute: "/todoTask",
+      initialRoute: "/apiRequst",
       routes: {
         "/login": (context) => LoginScreen(),
         "/home": (context) => HomeScreen(),
         "/getStart": (context) => GetStartScren(),
-        "/todoTask": (context) => ToDoTaskScreen()
+        "/todoTask": (context) => ToDoTaskScreen(),
+        "/apiRequst":(context) => APIRequestClass()
       },
       // home:LoginScreen(),
     );
