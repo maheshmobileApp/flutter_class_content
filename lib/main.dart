@@ -3,8 +3,10 @@ import 'package:lucid_training_class/GetStart/getStartScren.dart';
 import 'package:lucid_training_class/Home/homeScreen.dart';
 import 'package:lucid_training_class/ToDoTask/ToDoTask.dart';
 import 'package:lucid_training_class/apirequest/api_request.dart';
+import 'package:lucid_training_class/checkbox/checkbox_class.dart';
 
 import 'Login/loginScreen.dart';
+import 'bottomeNavigationBar/bottome_navigation_barClass.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,13 +32,15 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      initialRoute: "/apiRequst",
+      initialRoute: "/bottomeNotification",
       routes: {
         "/login": (context) => LoginScreen(),
-        "/home": (context) => HomeScreen(),
+        // "/home": (context) => HomeScreen(),
         "/getStart": (context) => GetStartScren(),
         "/todoTask": (context) => ToDoTaskScreen(),
-        "/apiRequst":(context) => APIRequestClass()
+        "/apiRequst": (context) => APIRequestClass(),
+        "/checkbox": (context) => CheckBoxClass(),
+        "/bottomeNotification": (context) => BottomNavigationBarClass()
       },
       // home:LoginScreen(),
     );

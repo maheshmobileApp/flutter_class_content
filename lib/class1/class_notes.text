@@ -104,3 +104,16 @@ DB
 
 
 
+CheckBox:
+
+Checkbox is a type of input componet which holds the boolean.
+
+Bottom Navigation Bar: Holds the multiple widgets(screens).
+
+// 
+
+
+class className {
+
+   
+}
