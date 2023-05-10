@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 import 'package:lucid_training_class/GetStart/getStartScren.dart';
 import 'package:lucid_training_class/Home/homeScreen.dart';
 import 'package:lucid_training_class/ToDoTask/ToDoTask.dart';
@@ -7,6 +8,7 @@ import 'package:lucid_training_class/checkbox/checkbox_class.dart';
 
 import 'Login/loginScreen.dart';
 import 'bottomeNavigationBar/bottome_navigation_barClass.dart';
+import 'imagePikcer/imagePicker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      initialRoute: "/bottomeNotification",
+      initialRoute: "/imagePicker",
       routes: {
         "/login": (context) => LoginScreen(),
         // "/home": (context) => HomeScreen(),
@@ -40,7 +42,8 @@ class MyApp extends StatelessWidget {
         "/todoTask": (context) => ToDoTaskScreen(),
         "/apiRequst": (context) => APIRequestClass(),
         "/checkbox": (context) => CheckBoxClass(),
-        "/bottomeNotification": (context) => BottomNavigationBarClass()
+        "/bottomeNotification": (context) => BottomNavigationBarClass(),
+        "/imagePicker": (context) => ImagePickerClass()
       },
       // home:LoginScreen(),
     );
